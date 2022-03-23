@@ -1,0 +1,181 @@
+body{
+  background-color: black;
+  width: 100%;
+  align-content: center;
+  margin: 0%;
+  left: 0%;
+  top: 0%;
+  position: fixed;
+}
+#demo{
+  position: absolute;
+  left: 0px;
+  top:0px;
+  color:white;
+   z-index: 15;
+}
+.side{
+  position: fixed;
+  float: left;
+  z-index: 10;
+  height: 100%;
+  background-color: black;
+
+  bottom:0%;
+  width: 10%;
+  top:0%;
+  margin: 0%;
+
+}
+
+#stat{
+  position: fixed;
+  left:0%;
+  top:0%;
+  width:10%;
+  color: white;
+  z-index: 101;
+  text-align: center;
+}
+
+
+#audio{
+  top: 17%;
+  height: auto;
+  position: fixed;
+  width: 6%;
+  left:90%;
+  margin: 2%;
+  z-index: 17;
+}
+#whitehouse{
+  top: 4%;
+  position: fixed;
+  height: 10%;
+  width: 8%;
+  left:90%;
+  margin: 1%;
+  z-index: 17;
+}
+#pause{
+  top:36%;
+  margin-left: 1%;
+  left: 90%;
+  width: 8%;
+  position: fixed;
+  z-index: 17;
+}
+#instruction{
+  top:55%;
+  width: 6%;
+  position: fixed;
+  z-index: 17%;
+  left: 92%;
+}
+#playground{
+
+  z-index: 1;
+  background-color: red;
+  position:fixed;
+  background-image: url("./../materiale/playground.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  left: 10%;
+  width: 80%;
+  min-height: 100%;
+
+  top: 0%;
+ margin: 0%;
+ }
+
+
+
+
+
+button{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+ .overplay{
+   position: fixed;
+   z-index: 101;
+   background-color: rgba(0,0,0,0.7);
+   background-position: center;
+   background-attachment: fixed;
+   left:30%;
+   right: 30%;
+   top: 20%;
+   bottom:20%;
+   align-content: center;
+   text-align: center;
+   border: solid white 7px;
+   color: white;
+ }
+
+ .button{
+   background-color: blue;
+   color: white;
+  position: fixed;
+   height:10%;
+   width: 20%;
+   left: 40%;
+   top:45%;
+ }
+
+
+
+#trump{
+  z-index: 3;
+  position: fixed;
+
+
+}
+#kim{
+  z-index: 4;
+  position:fixed;
+
+}
+
+.bomb{
+  position: fixed;
+  z-index: 3;
+
+
+}
+#boom{
+  position: fixed;
+  z-index: 3;
+
+}
+
+#soldier{
+  position:fixed;
+  bottom:0%;
+  margin: 0%;
+  z-index: 16;
+  height: 14%;
+}
+
+.proiettili{
+  height: 1%;
+  width: 1%;
+  z-index:15;
+  position:fixed;
+}
+
+#gameover{
+  display: none;
+  position:fixed;
+  width: 80%;
+  height: 100%;
+  top: 0%;
+  left: 10%;
+  right: 10%;
+  bottom: 0%;
+  margin: 0%;
+  background-image: url("./../materiale/trumpLose.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+}

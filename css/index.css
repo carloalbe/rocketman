@@ -1,0 +1,105 @@
+h1{
+  font-size: 70px;
+  text-align: center;
+}
+
+fieldset{
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  vertical-align: middle;
+
+  width: 90%;
+  min-height: 50%;
+  background-color: rgba(0,0,0,0.7);
+
+}
+
+aside{
+  text-align: center;
+  color: white;
+  position:relative;
+  float:right;
+  margin:3%;
+  right: 0%;
+  width: 32.2%;
+}
+
+article{
+  margin:3%;
+  left: 0px;
+  width: 53.8%;
+  display: block;
+  position:relative;
+  float: left;
+  color: white;
+}
+
+ input{
+
+   margin-top: 5%;
+   margin-bottom: 5%;
+ }
+
+aside{
+  vertical-align: middle;
+}
+label{
+
+}
+
+
+#trumpSpeak{
+  position: fixed;
+  background-image: url("./../materiale/fumettoDx.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 20%;
+  padding:5%;
+  padding-top: 0%;
+  z-index:5;
+  bottom: 40%;
+  left: 10%;
+  align-content: center;
+  text-align: center;
+  margin:0%;
+}
+
+#trumpTell{
+  margin-top: 10%;
+  font-size: 15px;
+  color: black;
+  position: relative;
+  z-index: 2;
+  min-width: 20%;
+  min-height: 20%;
+  text-align: center;
+}
+#kimSpeak{
+  position: absolute;
+  background-image: url("./../materiale/fumettoSx.png");
+  background-repeat: no-repeat;
+  align-content: center;
+  text-align: center;
+  margin:0%;
+  padding: 10%;
+  padding-top:5%;
+  background-position: center;
+  background-size: contain;
+  z-index: 5;
+
+  width: 20%;
+  right: 70%;
+}
+#kimTell{
+  margin-top: 20%;
+  font-size: 70%;
+  color: black;
+  position: relative;
+  z-index: 2;
+  min-width: 20%;
+  min-height: 20%;
+  text-align: center;
+}

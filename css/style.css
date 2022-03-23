@@ -1,0 +1,87 @@
+#corpoUSA{
+  position:absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  background-image: url("./../materiale/Flag_of_USA.png");
+  background-repeat: repeat;
+  background-size: 100% ;
+  width: 100%;
+  height: 100%;
+  background-color:white;
+}
+#corpoNC{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-image: url("./../materiale/Flag_of_NC.png");
+  background-repeat: repeat;
+  background-size: 100% ;
+  min-width: 100%;
+  height: 100%;
+  background-color: white;
+  max-width: 100%;
+}
+
+
+
+
+
+.aside{
+  text-align: center;
+  color: white;
+  position:relative;
+  float:right;
+  min-height:70%;
+  background-color: rgba(0,0,0,0.7);
+  margin:3%;
+  right: 0%;
+  width: 32.2%;
+
+
+}
+#Kim{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+
+  width: 60%;
+  margin-bottom: 0%;
+}
+
+#NC{
+  top:60%;
+  position: absolute;
+  left: 10%;
+  width: 80%;
+
+}
+
+#trumpficture{
+  position: fixed;
+  z-index: 1;
+  bottom: 0px;
+  left:3%;
+  height: 50%;
+}
+
+ footer{
+
+  float: left;
+  text-align: center;
+  position: static;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 20%;
+  left:0%;
+  right: 0%;
+  bottom: 0%;
+
+}
+
+.tell{
+  font: comic;
+  font-family:sans-serif;
+}
