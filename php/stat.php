@@ -11,9 +11,9 @@
   $_SESSION["jump"]=$_SESSION["jump"]+$_POST["jumpIn"];
   $_SESSION["sit"]=$_SESSION["sit"]+$_POST["sitIn"];
   if($_POST["secondiIn"]>$_SESSION["best"])$_SESSION["best"]=$_POST["secondiIn"];
-  $querystatup=mysql_query("UPDATE stat SET timetot='".$_SESSION["timetot"]."',games='".$_SESSION["games"]."',
+  $querystatup=mysqli_query($conn,"UPDATE stat SET timetot='".$_SESSION["timetot"]."',games='".$_SESSION["games"]."',
    best='".$_SESSION["best"]."',bomb='".$_SESSION["bomb"]."',gun='".$_SESSION["gun"]."',jump='".$_SESSION["jump"]."',sit='".$_SESSION["sit"]."',
   bombkill='".$_SESSION["bombkill"]."',gunkill='".$_SESSION["gunkill"]."' WHERE id='".$_SESSION["id"]."'")
-  or die ("aggiornamento non riuscito".mysql_error());
+  or die ("aggiornamento non riuscito".mysqli_connect_error());
   header("location:./../game.php");
  ?>

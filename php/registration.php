@@ -3,11 +3,11 @@ session_start();
 require("dbConn.php");
 
 $date=strval(date('Y/m/d'));
-  $result = mysql_query("SELECT * FROM users WHERE username='".$_POST["username"]."'");
-    if (mysql_num_rows($result) == 0){
+  $result = mysqli_query($conn,"SELECT * FROM users WHERE username='".$_POST["username"]."'");
+    if (mysqli_num_rows($result) == 0){
         if($_POST["password"]==$_POST["passwordR"]){
-          $query_stat=mysql_query("INSERT INTO stat (username) VALUES('".$_POST["username"]."')");
-          $query_registrazione = mysql_query("INSERT INTO users (username,password,name,surname,nation,birth,genre,first,last)
+          $query_stat=mysqli_query($conn,"INSERT INTO stat (username) VALUES('".$_POST["username"]."')");
+          $query_registrazione = mysqli_query($conn,"INSERT INTO users (username,password,name,surname,nation,birth,genre,first,last)
           VALUES ('".$_POST["username"]."','".$_POST["password"]."','".$_POST["name"]."','".$_POST["surname"]."',
           '".$_POST["nation"]."','".$_POST["birth"]."','".$_POST["genre"]."','".$date."','".$date."')");
           $_SESSION["username"]=$_POST["username"];
